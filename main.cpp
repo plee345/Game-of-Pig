@@ -62,6 +62,7 @@ int main()
                 cin >> input;
                 if (input == "bank"){
                     totalScore += roundScore;
+                    roundScore = 0;
                     turns++;
                     spaceLines();
                     oppTurn(compTurns, compRoundScore, compTotalScore);
